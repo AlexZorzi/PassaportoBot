@@ -47,7 +47,7 @@ while True:
         time = tag_id.split(":")[0].split("-")[-1]  # id_18092023-5_mercoledi-8.00:10:10
         if time in exclude_time:  # esculdi link non nel range del tempo
             continue
-        if text != "Non prenotabile" and text != "Non disponibile" and text != "Festivo":
+        if text != "Non prenotabile" and text != "Non disponibile" and text != "Festivo" and text != "":
             print("trovato!")
 
             link.click()
