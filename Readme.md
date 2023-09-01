@@ -1,6 +1,11 @@
 # Passaporto Sniper Bot
 Non sono responsabile dell'uso da parte di terzi di questo software, che è stato creato esclusivamente a scopi didattici.
 
+
+https://github.com/AlexZorzi/PassaportoBot/assets/47613715/84e53a81-ea9c-4105-a728-13bb6db0de73
+
+
+
 # Guida
 1) andare su https://www.passaportonline.poliziadistato.it ed accedere con SPID
 2) Inserire richiedente
