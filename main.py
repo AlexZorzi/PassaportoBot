@@ -8,6 +8,7 @@ cookies = {
     "AGPID": "",  # <-- compila ES: "Ade5J5oLxwqzt4Ns2qRrUQ$$"
     "AGPID_FE": "",  # <-- compila ES: "Ade5J5oGBeqzt4Ns2qRrUQ$$"
 }
+Nomerichiedente = "" # inserire nome richiedente dopo aver compilato la scheda
 Struttura = "" # Stessa descrizione che è riportata nella struttura scelta nel menù strutture ES: "Commissariato Portogruaro"
 exclude_time = [] # orari che non si volgiono ES: ["10.00", "11.00", "12.00", "13.00", "14.00", "15.00", "16.00", "17.00", "18.00"]
 driver = webdriver.Firefox()
@@ -52,7 +53,7 @@ while True:
 
             link.click()
 
-            button = driver.find_element(By.CSS_SELECTOR, ".button_l")
+            button = driver.find_elements_by_xpath("//*[contains(text(), Nomerichiedente)]")
             button.click()
 
             email = driver.find_element(By.CSS_SELECTOR, "#email").get_property("value")
