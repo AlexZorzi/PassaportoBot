@@ -1,4 +1,12 @@
+
+# AGGIORNAMENTO 06/02/2024
+**il sito del ministero è stato aggiornato, questo script non è stato testato per la nuova versione, potrebbe non funzionare.**
+
+  A meno di contributi tramite PR, questo script non verrà aggiornato
+
+***
 # Passaporto Sniper Bot
+
 Non sono responsabile dell'uso da parte di terzi di questo software, che è stato creato esclusivamente a scopi didattici.
 
 
